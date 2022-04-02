@@ -1,0 +1,136 @@
+html {
+  background-image: url(./image1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-color: greenyellow;
+  border-style: groove;
+  border-width: 8px;
+  height:1800px;
+  width:1500px;
+}
+.ss {
+  background-color: black;
+  border-style: solid;
+  border-color: red;
+  border-width: 6px;
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+.item1 {
+  width: 300px;
+  padding: 40px;
+  display: inline-flex;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+
+.item2 {
+  padding: 20px;
+  width: 370px;
+  font-size: 24px;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  left: 200px;
+  top: 38px;
+}
+
+.item3 {
+  width: 330px;
+  padding: 0px;
+  display: inline-flex;
+  margin:10px;
+  justify-content: center;
+  position: absolute;
+  top: 40px;
+  left: 1100px;
+}
+
+.item4 {
+  display: inline-flex;
+  background-color: #008040;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border-color: black;
+  border-style: solid;
+  text-align: center;
+  justify-content: center;
+  flex-flow:column wrap;
+  margin:10px;
+  position: absolute;
+  top: 400px;
+  left: 300px;
+
+}
+.hr{
+  position: absolute;
+  top:5px;
+  width: 290px;
+  position:relative;
+  left:4px;
+}
+
+.item5 {
+  width: 400px;
+  border-width: 5px;
+  border-style: dashed;
+  border-color: red;
+  display: inline flex;
+  text-align: center;
+  color: red;
+  font-size: 18px;
+  position: absolute;
+  right: 340px;
+  top: 250px;
+}
+::placeholder{
+  text-align: center;
+}
+h1 {
+  background-color: black;
+  border-style: solid;
+  border-color: red;
+  border-width: 6px;
+  text-align: center;
+  color: white;
+  border-radius: 40px;
+  justify-content: center;
+  font-size: 35px;
+  width: 400px;
+  padding: 15px;
+  display: inline-flex;
+  position: absolute;
+  top: 950px;
+  right: 600px;
+}
+h2 {
+  font-size: 30px;
+  color: darkblue;
+}
+h3{
+  font-size: 30px;
+}
+.grid-container {
+  display: inline-grid;
+  gap: 60px;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+  position: absolute;
+  top: 1100px;
+  left: 150px;
+}
+.test {
+  display: inline-block;
+  background-color: aqua;
+  border-style: solid;
+  border-color: green;
+  border-width: 3px;
+  border-radius: 30px;
+  color: darkblue;
+  text-align: center;
+  width: 300px;
+}
